@@ -1,0 +1,96 @@
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+ai/
+venv/
+env/
+.venv/
+
+# =========================
+# DJANGO
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+*.sqlite3
+
+# Django static & media
+staticfiles/
+media/
+
+# =========================
+# ENV FILES / SECRETS
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# CELERY / REDIS
+# =========================
+celerybeat-schedule
+celerybeat.pid
+
+# =========================
+# AI / ML FILES
+# =========================
+# Trained models
+*.h5
+*.keras
+*.onnx
+
+# Datasets (VERY IMPORTANT)
+ai_engine/data/
+data/
+
+# TensorFlow cache
+.tensorflow/
+tf_logs/
+
+# =========================
+# OPENCV
+# =========================
+*.avi
+*.mp4
+
+# =========================
+# JUPYTER / NOTEBOOKS
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# WINDOWS
+# =========================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =========================
+# IDE / EDITORS
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# DOCKER
+# =========================
+docker-compose.override.yml
+
+# =========================
+# NODE / FRONTEND (FUTURE)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# SYSTEM
+# =========================
+.DS_Store
